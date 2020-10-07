@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Home",
+    "slug": "/",
+    "_id": "ckd4y2m7j00074k9kbrxs0bat",
+    "type": "@apostrophecms/home-page",
+    "metaType": "doc",
+    "_url": "/",
+    "_children": [
+      "ckd96fndy0004fo9kbusxz2kf",
+      "ckd96fneg0007fo9k6adjs0o9",
+      "ckd96fneu000afo9k53bzhvah"
+    ]
+  },
+  {
+    "title": "Second",
+    "slug": "/second",
+    "_id": "ckd96fndy0004fo9kbusxz2kf",
+    "type": "@apostrophecms/home-page",
+    "metaType": "doc",
+    "_url": "/second",
+    "_children": []
+  },
+  {
+    "title": "Third",
+    "slug": "/third",
+    "_id": "ckd96fneg0007fo9k6adjs0o9",
+    "type": "@apostrophecms/home-page",
+    "metaType": "doc",
+    "_url": "/third",
+    "_children": []
+  },
+  {
+    "title": "Fourth",
+    "slug": "/fourth",
+    "_id": "ckd96fneu000afo9k53bzhvah",
+    "type": "@apostrophecms/home-page",
+    "metaType": "doc",
+    "_url": "/fourth",
+    "_children": []
+  }
+]
