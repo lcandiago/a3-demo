@@ -5,6 +5,19 @@ module.exports = {
         label: 'Footer Links',
         type: 'relationship',
         withType: '@apostrophecms/page'
+      },
+      arrayLinks: {
+        type: 'array',
+        label: 'Array Links',
+        fields: {
+          add: {
+            _arrayFooterLinks: {
+              label: 'Array Footer Links',
+              type: 'relationship',
+              withType: '@apostrophecms/page'
+            }
+          }
+        }
       }
     },
     group: {
