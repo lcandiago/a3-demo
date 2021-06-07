@@ -1,5 +1,3 @@
-const path = require('path');
-
 require('apostrophe')({
   shortName: 'a3-demo',
 
@@ -56,7 +54,8 @@ require('apostrophe')({
     'article-widget': {},
     // Paginated index of articles, and with pages for individual articles
     'article-page': {},
-    topic: {}
+    topic: {},
+    'attacher-widget': {}
 
   }
 });
