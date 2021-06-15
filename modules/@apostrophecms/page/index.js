@@ -16,6 +16,14 @@ module.exports = {
         name: '@apostrophecms/home-page',
         label: 'Home'
       }
+    ],
+    park: [
+      {
+        slug: '/',
+        parkedId: 'home',
+        title: 'Home Sweet Home',
+        type: 'default-page'
+      }
     ]
   }
 };
