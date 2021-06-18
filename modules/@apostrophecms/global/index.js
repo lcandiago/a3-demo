@@ -13,13 +13,5 @@ module.exports = {
         fields: [ '_footerLinks' ]
       }
     }
-  },
-  middleware(self) {
-    return {
-      checkProtocol(req, res, next) {
-        console.log(req.protocol);
-        return next();
-      }
-    };
   }
 };

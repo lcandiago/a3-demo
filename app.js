@@ -8,13 +8,6 @@ require('apostrophe')({
   // configuring user accounts.
 
   modules: {
-
-    '@apostrophecms/express': {
-      options: {
-        trustProxy: true
-      }
-    },
-
     // Apostrophe module configuration
 
     // Note: most configuration occurs in the respective
